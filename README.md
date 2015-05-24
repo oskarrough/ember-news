@@ -1,7 +1,28 @@
-# Ember-news
+# Ember News
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a Hacker/Designer News clone made with Ember.js and Firebase. I'd love it to be a community project for people to learn Ember. We'll see.
+
+## Roadmap
+
+Authenticated users can create posts (title, url or comment).
+
+Authenticated users can upvote and comment posts. Upvoting gives one point. Comments give two.
+
+top: ordered by points and time
+recent: latest posts
+discussions: posts without links
+user profile:
+
+Posts can be marked 'sunk' by admins. This means they'll never appear in top.
+
+Posts can be labeled. For example, a post title containing 'typography' will be labeled as such. Ask/Show?
+
+Things we'll learn:
+
+- Persisting data with Ember Data, Emberfire and Firebase
+- Authentication
+- Routing and components
+- Handling relationships (post + comments or user + post)
 
 ## Prerequisites
 
@@ -22,12 +43,8 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember server`
+* `ember s` (for server)
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
@@ -41,13 +58,4 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+todo
