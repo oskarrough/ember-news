@@ -58,4 +58,4 @@ You will need the following things properly installed on your computer.
 
 ### Deploying
 
-todo
+* `ember surge` (this both builds and deploys in one)

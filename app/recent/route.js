@@ -7,7 +7,7 @@ export default Ember.Route.extend({
 			// this doesn't update when models are added or removed
 			// return posts.sortBy('created').reverseObjects();
 
-
+			// but this does
 			return Ember.ArrayProxy.extend({
 				arrangedContent: Ember.computed.sort('content', 'sortProperties'),
 				sortProperties: ['created:desc']
