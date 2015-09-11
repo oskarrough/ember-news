@@ -8,11 +8,11 @@ body {
 	margin: 2rem;
 }
 
-
-menu {
+/* Navigation */
+nav {
 	padding: 0;
 }
-menu a {
+nav a {
 	display: inline-block;
 	min-width: 3em;
 	padding: 0.3em 0.8em 0.35em;
@@ -23,12 +23,12 @@ menu a {
 	background-color: #a9a9a9;
 	color: rgba(255, 255, 255, 0.7);
 }
-menu a.is-active {
+nav a.is-active {
 	background-color: #d84a32;
 	color: #fff;
 }
 
-
+/* Post list */
 post-list {
 	display: block;
 	padding-bottom: 0.6rem;
@@ -43,8 +43,6 @@ post-list h3 a {
 	text-decoration: none;
 	/*color: black;*/
 }
-
-
 
 .Meta,
 small {
@@ -66,5 +64,5 @@ textarea {
 	font-size: 14px;
 	margin-top: 0.25em;
 	margin-bottom: 0.75em;
-	border: 1px solid hsl(0, 0%, 92%);
+	border: 1px solid hsl(0, 0%, 80%);
 }

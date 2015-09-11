@@ -14,7 +14,7 @@ App = Ember.Application.extend({
 });
 
 // Change the class Ember adds to active elements
-Ember.LinkView.reopen({
+Ember.LinkComponent.reopen({
 	activeClass: 'is-active'
 });
 
