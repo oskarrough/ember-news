@@ -1,0 +1,12 @@
+{{!-- <nav>
+	{{link-to 'Top' 'top'}}
+	{{link-to 'Recent' 'recent'}}
+</nav> --}}
+
+<section>
+	{{#each posts as |post|}}
+		{{post-list post=post}}
+	{{/each}}
+</section>
+
+{{outlet}}
